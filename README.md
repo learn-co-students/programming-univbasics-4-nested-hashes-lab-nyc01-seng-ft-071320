@@ -9,7 +9,7 @@
 
 Now that we've seen some examples of nested hashes, the next step is to get more
 comfortable with using them. In this lab, we're going to practice accessing and
-updating data within a nested hash and review what we've covered so far.
+updating data within a nested hash and review what we've covered so far. 
 
 ## Instructions
 
