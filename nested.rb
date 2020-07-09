@@ -1,4 +1,3 @@
-
 def hopper
 	programmer_hash = 
  		{
@@ -15,6 +14,9 @@ def hopper
         :languages => ["C"]
       }
     }
+    
+    puts programmer_hash[:grace_hopper]
+    programmer_hash[:grace_hopper]
 
 end
 
@@ -36,6 +38,9 @@ def alan_kay_is_known_for
         :languages => ["C"]
       }
     }
+    
+    puts programmer_hash[:alan_kay][:known_for]
+    programmer_hash[:alan_kay][:known_for]
 
 end
 
@@ -55,6 +60,9 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
+    
+    puts programmer_hash[:dennis_ritchie][:languages][0]
+    programmer_hash[:dennis_ritchie][:languages][0]
 
 end
 
@@ -81,6 +89,13 @@ def adding_matz
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:yukihiro_matsumoto] = {
+      know_for: "Ruby",
+      languages: ["LISP", "C"]
+    }
+    
+    programmer_hash
 
 end
 
@@ -103,6 +118,10 @@ def changing_alan
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:alan_kay][:known_for] = "GUI"
+    
+    programmer_hash
 
 end
 
@@ -125,5 +144,9 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
+    
+    programmer_hash
 
 end
